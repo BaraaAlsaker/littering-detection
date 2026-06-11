@@ -141,8 +141,8 @@ This is a proof-of-concept, not a finished surveillance product:
 
 ## Acknowledgments
 
-Developed as a university Computer Vision course project by **Fares Aldeeb**,
-**Baraa Alsaker**, and **Abdurahman Ghannam**.
+Developed as a university Computer Vision course project by
+**Baraa Alsaker**, **Fares Aldeeb**, and **Abdurahman Ghannam**.
 
 Built on excellent open-source work:
 
