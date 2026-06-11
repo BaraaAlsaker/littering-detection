@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Datasets (private — bring your own, YOLO format)
+/train/
+/valid/
+/test/
+/dataset_merged/
+/extra_data/
+
+# Inference media (private)
+/input/
+/outputs/
+/evidence/
+/littering_detections/
+
+# Model weights & training runs (download best.pt from the Releases page)
+*.pt
+/littering_model/
+
+# Reports / documents
+*.pdf
+
+# Caches
+*.cache
+__pycache__/
+.ipynb_checkpoints/
+
+# Local tooling / editor config
+.claude/
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+# YOLO dataset configuration (template)
+#
+# Point these paths at your own YOLO-format dataset. The repository does not
+# ship any images — bring your own. Paths are relative to this file's location.
+#
+# Expected layout:
+#   train/images/  train/labels/
+#   valid/images/  valid/labels/
+#   test/images/   test/labels/   (optional)
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['person', 'trash']
