@@ -15,7 +15,7 @@ when a littering event has occurred. Every alert can be traced back to the rule 
 it, which makes the system easy to understand and easy to debug.
 
 The whole pipeline lives in a single, well-organised notebook:
-[`notebooks/littering_detection.ipynb`](notebooks/littering_detection.ipynb).
+[`littering_detection.ipynb`](littering_detection.ipynb).
 
 ---
 
@@ -61,11 +61,10 @@ layer is what turns raw detections into reliable, low-false-positive alerts.
 
 ```
 littering-detection/
-├── notebooks/
-│   └── littering_detection.ipynb   # full pipeline: data prep → train → eval → inference
-├── docs/images/                    # charts used in this README
+├── littering_detection.ipynb       # full pipeline: data prep → train → eval → inference
 ├── data.yaml                       # YOLO dataset config (template — bring your own data)
 ├── requirements.txt
+├── docs/images/                    # charts used in this README
 ├── LICENSE
 └── README.md
 ```
@@ -89,7 +88,7 @@ Apple Silicon (MPS) and CPU (slower, and training epochs are auto-reduced).
 
 ## Usage
 
-Open `notebooks/littering_detection.ipynb`. A single configuration cell at the top controls
+Open `littering_detection.ipynb`. A single configuration cell at the top controls
 every stage via skip flags (`SKIP_INSTALL`, `SKIP_DOWNLOAD`, `SKIP_MERGE`, `SKIP_TRAIN`,
 `SKIP_EVAL`) and exposes all detection thresholds.
 
